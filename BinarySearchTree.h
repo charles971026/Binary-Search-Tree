@@ -15,7 +15,7 @@ class TreeNode{
         TreeNode(string s);
         string getData();
     
-    //private:
+    private:
         string data;
         TreeNode* left;
         TreeNode* right;
@@ -32,8 +32,7 @@ class BinarySearchTree{
         string getSmallest();
         string getSmallestHelper(TreeNode* root);
         TreeNode* getRoot();
-        //void printHelper(TreeNode* root);
-        //void print();
+
     
     private:
         TreeNode* root;
